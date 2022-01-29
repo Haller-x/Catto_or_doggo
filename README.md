@@ -9,6 +9,8 @@ Na pasta do projeto rode:
 
 `docker run --gpus all -p 8888:8888 tensorenv`
 
+Pode-se adicionar a flag `--rm` ao comando docker run para manter o host limpo de contêineres parados e não utilizados.
+
 Vá até a url do notebook e rode o notebook (build_model.ipynb)!
 
 

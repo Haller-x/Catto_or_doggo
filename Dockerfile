@@ -9,6 +9,7 @@ WORKDIR /code
 COPY requirements.txt .
 
 # instalando dependencias
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # instalando wget

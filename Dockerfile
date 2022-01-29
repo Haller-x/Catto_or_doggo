@@ -1,5 +1,6 @@
 # setando imagem base
 FROM tensorflow/tensorflow:nightly-gpu-jupyter
+#caso não tenha GPU substitua por tensorflow/tensorflow:nightly-jupyter
 
 # setando area de trabalho no ambiente
 WORKDIR /code

@@ -21,3 +21,5 @@ Link do git do deploy: [Link](https://github.com/Haller-x/GRAD-CAM_ST) (Optei po
 OBS: O notebook conta com um wget para baixar as imagens - infelizmente o host da url conta com alguma instabilidade então pode haver uma enorme variação no tempo de download (também está comentado no notebook)
 
 OBS²: Infelizmente a imagem do Tensorflow e download do modelo base (EfficientNetB3) podem contar com um erro 104 (connection reset by peer), nesse caso basta tentar novamente em alguns segundos para construir o container, e rodar novamente a célula no notebook.
+
+OBS³: Caso rode em um ambiente sem GPU utilize tensorflow/tensorflow:nightly-jupyter em vez de tensorflow/tensorflow:nightly-gpu-jupyter no Dockerfile

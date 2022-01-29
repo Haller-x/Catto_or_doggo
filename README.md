@@ -13,12 +13,11 @@ Pode-se adicionar a flag `--rm` ao comando docker run para manter o host limpo d
 
 Vá até a url do notebook e rode o notebook (build_model.ipynb)!
 
-
-Ferramenta com deploy disponível em (muito demorado para carregar devido as limitações do heroku): [Link](http://catordogclassifier.herokuapp.com/)
+Ferramenta com deploy disponível em (muito demorado para carregar devido as limitações do heroku): [Link](https://catordogclassifierdocker.herokuapp.com/)
 
 Note que após clicar em predição a renderização da imagem e o resultado podem demorar alguns segundos, devido a limitação de RAM imposta pelo heroku.
 
-Link do git do deploy: [Link](https://github.com/Haller-x/GRAD-CAM_ST) (Optei por não utilizar Docker na aplicação streamlit pelo tempo demasiado para subir a imagem)
+Link do git do deploy: [Link](https://github.com/Haller-x/Docker_ST) 
 
 OBS: O notebook conta com um wget para baixar as imagens - infelizmente o host da url conta com alguma instabilidade então pode haver uma enorme variação no tempo de download (também está comentado no notebook)
 

@@ -22,4 +22,4 @@ OBS: O notebook conta com um wget para baixar as imagens - infelizmente o host d
 
 OBS²: Infelizmente a imagem do Tensorflow e download do modelo base (EfficientNetB3) podem contar com um erro 104 (connection reset by peer), nesse caso basta tentar novamente em alguns segundos para construir o container, e rodar novamente a célula no notebook.
 
-OBS³: Caso rode em um ambiente sem GPU utilize tensorflow/tensorflow:nightly-jupyter em vez de tensorflow/tensorflow:nightly-gpu-jupyter no Dockerfile
+OBS³: Caso rode em um ambiente sem GPU utilize tensorflow/tensorflow:nightly-jupyter em vez de tensorflow/tensorflow:nightly-gpu-jupyter no Dockerfile e utilize no lugar do segundo comando docker: `docker run -p 8888:8888 tensorenv`
